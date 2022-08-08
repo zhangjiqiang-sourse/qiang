@@ -34,7 +34,7 @@
 
 ### 搭建环境
 
-![搭建环境成功](img/environment-1.png)
+![搭建环境成功](img/environment.png)
 
 ### 实验
 
@@ -51,9 +51,10 @@
 ![jiqiang1登录成功](img/step1-1.png)
 2. 创建一个由相同字符组成的真正长名的用户(比如20次a)，然后查看应用程序发送回的cookie
 
-`GkzSM2vKHdcaTNIza8od1wS28inRHiC2GkzSM2vKHdcaTNIza8od1ys96EXmirn5`
+`GkzSM2vKHdcaTNIza8od1zKQoOv715fuKH0DiQn/zdA=`
 ![20个“a”登录成功](img/step2.png)
 3. 创建一个具有用户名和密码的用户，它将允许您通过删除加密的数据来以管理员身份登录
+原用户名：aaaaaaaaadmin
 
 `GkzSM2vKHdeYMhBvxnBx5BGqti8ykenz`
 ![漏洞利用](img/bug.png)
@@ -61,6 +62,7 @@
 返回的cookie
 `mDIQb8ZwceQRqrYvMpHp8w==`
 4. 创建一个用户名的用户，将允许您登录作为管理员交换加密块
+原用户名："password       "，原密码："admin   "
 
 `mNFTiQxWSWy1BlFFazd3eshx6uXNvSnx`
 ![漏洞利用2](img/bug2.png)
